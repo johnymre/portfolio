@@ -26,7 +26,7 @@ export default function Header() {
       >
         <Button href = "mailto:johnermy@gmail.com" className=" md:hover:bg-gray-100 bg-gradient-to-r from-blue-700 to-blue-600 border-dashed border-2 border-sky-500">Contact Me</Button>
       </motion.div>
-      <Navbar.Toggle />
+      <Navbar.Toggle className = "z-2" />
       <Navbar.Collapse>
         <Navbar.Link className="md:text-sky-500 font-bold md:hover:text-sky-500" href="#" active>
           Home

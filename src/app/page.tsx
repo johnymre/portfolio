@@ -142,23 +142,23 @@ export default function Home() {
                 <div className="md:w-full rounded-lg bg-transparent border-0 p-10">
                   <motion.div
                    className="relative absolute"
-                  initial={{y : 188, opacity: 0 }}
-                  whileInView={{ y : 0, opacity: 1  }}
+                  initial={{y : 100 }}
+                  whileInView={{ y : 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 1 }}
                   >
-                        <Image className="z-1 md:rotate-[-20deg] absolute min-[1920px]:right-72 top-[-5rem]  md:top-[-5rem] 2xl:w-64 min-[1920px]:w-80 lg:w-60  sm:w-40"  src={web1} width={300} height={300} alt="John Ermy" />
+                        <Image className="z-1 md:rotate-[-20deg] absolute min-[1920px]:right-72 top-[-5rem] 2xl:right-80 right-20  2xl:top-[-5rem] 2xl:w-80 lg:w-60  sm:w-40"  src={web1} width={300} height={300} alt="John Ermy" />
                   </motion.div>
                 </div>
                 <div className="md:w-full rounded-lg bg-transparent border-0 p-10">
                   <motion.div
                    className="relative absolute"
-                   initial={{y : -100, opacity: 0 }}
-                  whileInView={{ y : 0, opacity: 1  }}
+                   initial={{y : -100 }}
+                  whileInView={{ y : 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 1 }}
                   >
-                        <Image className="z-0  md:rotate-[-20deg] absolute  md:bottom-[-5rem] right-[-7rem] top-[-7rem] min-[1920px]:right-0 min-[1920px]:top-[-20rem] min-[1920px]:w-80 2xl:w-64 lg:w-60 sm:w-40"  src={web12} width={300} height={300} alt="John Ermy" />
+                        <Image className="z-0  md:rotate-[-20deg] absolute  right-[-7rem] top-[-7rem] min-[1920px]:right-0 2xl:top-[-20rem] 2xl:right-0 2xl:w-80 lg:w-60 sm:w-40"  src={web12} width={300} height={300} alt="John Ermy" />
                   </motion.div>
                 </div>
                 </div>
