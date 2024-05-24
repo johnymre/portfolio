@@ -16,6 +16,12 @@
   }
 }
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: black;
@@ -53,4 +59,42 @@ a
     background-position: 100% 50%;
   }
 }
+@media (max-width: 768px) { 
 
+
+[data-testid="flowbite-navbar-toggle"], [data-testid="flowbite-navbar-toggle"]:hover , [data-testid="flowbite-navbar-toggle"]:focus{
+  z-index: 1;
+  background-color: transparent !important;
+  box-shadow:unset !important;
+}
+[data-testid="flowbite-navbar-toggle"] svg {
+  color: #fff;
+}
+
+
+[data-testid="flowbite-navbar-collapse"] {
+  z-index: 1;
+  background-color: white;
+  margin-top: 20px;
+}
+
+[data-testid="flowbite-navbar-collapse"] ul {
+  color: #000;
+  background-color: #fff;
+  margin:0;
+ }
+
+[data-testid="flowbite-navbar-collapse"] a {
+ color: #000;
+ background-color: #fff;
+}
+
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.rotatediv {
+  --tw-rotate: -20deg
+}
