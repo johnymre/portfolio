@@ -19,6 +19,9 @@ const config: Config = {
       },
       rotate: {
         '-20': '-20deg',
+      },
+      inset: {
+        '-5rem': '-5rem',
       }
     },
   },

@@ -3,6 +3,7 @@
 import Image from "next/image"
 import memoji from "./images/memoji.png"
 import web1 from "./images/web1.webp"
+import web12 from "./images/web12.webp"
 import { Card } from "flowbite-react";
 import { motion  } from "framer-motion";
 
@@ -30,7 +31,7 @@ export default function Home() {
                 <h4 className="text-3xl font-bold inline">Hi! I&apos;m</h4>
             </div>
             <div className="flex items-center">
-                <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-white">John Ermy </h1>
+                <h1 className="max-w-2xl mb-4 text-7xl font-extrabold tracking-tight leading-none md:text-8xl dark:text-white">John Ermy </h1>
                 <Image src={memoji} width={150} height={150} alt="John Ermy" />
             </div>
             <Card className="max-w-fit mb-4 backdrop-blur-2xl bg-blue-500/30 border-0">
@@ -73,7 +74,7 @@ export default function Home() {
     </div>
 </section>
 
-<section className="h-screen flex items-center justify-center bg-gradient-to-r
+<section className="h-full md:h-screen flex items-center justify-center bg-gradient-to-r
     from-blue-800
     via-blue-700
     to-blue-600
@@ -137,7 +138,7 @@ export default function Home() {
                       </motion.a> 
                   </div>   
                 </div>
-
+                <div>
                 <div className="w-full rounded-lg bg-transparent border-0 p-10">
                   <motion.div
                    className="rotate-[-20deg] absolute top-12 w-full"
@@ -146,8 +147,20 @@ export default function Home() {
                   viewport={{ once: true }}
                   transition={{ duration: 1 }}
                   >
-                        <Image className="rotate-[-20deg] absolute top-12"  src={web1} width={300} height={300} alt="John Ermy" />
+                        <Image className="rotate-[-20deg] absolute top-12 xl:w-80 lg:w-60  sm:w-40"  src={web1} width={300} height={300} alt="John Ermy" />
                   </motion.div>
+                </div>
+                <div className="w-full rounded-lg bg-transparent border-0 p-10">
+                  <motion.div
+                   className="relative absolute"
+                   initial={{y : -100, opacity: 0 }}
+                  whileInView={{ y : 0, opacity: 1  }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 1 }}
+                  >
+                        <Image className="rotate-[-20deg] absolute bottom-[-5rem] right-12 xl:w-80  lg:w-60 sm:w-40"  src={web12} width={300} height={300} alt="John Ermy" />
+                  </motion.div>
+                </div>
                 </div>
               </div>
           </div>
