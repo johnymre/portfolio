@@ -67,6 +67,7 @@ a
   background-color: transparent !important;
   box-shadow:unset !important;
 }
+
 [data-testid="flowbite-navbar-toggle"] svg {
   color: #fff;
 }
