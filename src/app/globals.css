@@ -39,7 +39,7 @@ body {
 
 a 
 {
-  @apply hover:text-blue-600
+  @apply hover:text-blue-600 text-white
 }
 
 .background-animate {
@@ -92,10 +92,22 @@ a
 
 }
 
+.header-bg{
+ @apply bg-blue-600
+}
+
 .z-1 {
   z-index: 1;
 }
 
 .rotatediv {
   --tw-rotate: -20deg
+}
+
+.current {
+  @apply text-sky-500 font-bold
+}
+
+.active {
+  font-weight: bold;
 }

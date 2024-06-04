@@ -31,6 +31,9 @@ const config: Config = {
         'desktop': '1920px',
         // => @media (min-width: 1280px) { ... }
       },
+      height: {
+        '128': '34rem',
+      }
     },
   },
   plugins: [
