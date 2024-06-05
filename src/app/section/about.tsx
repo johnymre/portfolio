@@ -1,8 +1,7 @@
 "use client";
 
-import profilepic from "../images/profile.webp"
+import profilepic from "../images/Profile.webp"
 import Image from "next/image"
-import { Card } from "flowbite-react";
 import { motion  } from "framer-motion";
 import CountUp, { useCountUp } from 'react-countup';
 import "../globals.css";
