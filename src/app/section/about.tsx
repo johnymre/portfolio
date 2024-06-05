@@ -44,7 +44,7 @@ export default function Home() {
                     <h1 className="max-w-2xl min-[1920px]:h-48 md:h-56 md:text-6xl min-[1920px]:text-6xl 2xl:text-6xl mb-4 text-7xl font-extrabold bg-gradient-to-r from-blue-400 via-blue-300 to-white bg-clip-text text-transparent">WordPress developer and Graphic Designer </h1>
                     
                 </div>
-                <p className="max-w-2xl 2xl:text-base  mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">I use wordpress elementor theme and knowledge with inquiry forms (for mailing), woocommerce (for e-commerce), seo plugin tools, website maintenance, cpanel, google console, google analytics, semrush and ETC. When it comes to graphic design I use Adobe Photoshop and Adobe Illustrator. </p>
+                <h3 className="max-w-2xl 2xl:text-base  mb-6 text-white">I use wordpress elementor theme and knowledge with inquiry forms (for mailing), woocommerce (for e-commerce), seo plugin tools, website maintenance, cpanel, google console, google analytics, semrush and ETC. When it comes to graphic design I use Adobe Photoshop and Adobe Illustrator. </h3>
                 </div>
             </motion.div>
 
@@ -86,8 +86,8 @@ export default function Home() {
                             >
                                   <h2 className="text-6xl font-extrabold pr-4 text-white">5+</h2>
                                   <div className="text-left">
-                                  <h3 className="text-xl font-regular text-white">Years of</h3>
-                                  <h3 className="text-xl font-regular text-white">Experience</h3>
+                                  <h3 className="text-l font-regular text-white">Years of</h3>
+                                  <h3 className="text-l font-regular text-white">Experience</h3>
                                   </div>
                               </motion.div>
 

@@ -33,6 +33,7 @@ const config: Config = {
       },
       height: {
         '128': '34rem',
+        '152': '47rem',
       }
     },
   },

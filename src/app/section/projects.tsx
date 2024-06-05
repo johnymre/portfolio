@@ -250,7 +250,7 @@ export default function Home() {
                           See All Projects
                           
                       </motion.a> 
-                  </div> 
+            </div> 
     </motion.div>
 
 </section>
