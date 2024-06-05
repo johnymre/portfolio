@@ -28,7 +28,7 @@ export default function Home() {
       
 
     <motion.div
-    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40 l:m-40"
+    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40 md:m-40"
     initial={{ y:100, opacity: 0 }}
     whileInView={{ y:0, opacity: 1 }}
     viewport={{ once: true }}
