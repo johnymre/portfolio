@@ -283,8 +283,8 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 1 }}
                             >
-                                  <CountUp className="text-6xl font-extrabold" end={6420} enableScrollSpy />
-                                  <h2 className="text-2xl font-bold pt-10">Project Views</h2>
+                                  <CountUp className="text-6xl font-extrabold text-white" end={6420} enableScrollSpy />
+                                  <h2 className="text-2xl font-bold pt-10 text-white">Project Views</h2>
                               </motion.div>
 
                               <motion.div
@@ -294,8 +294,8 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 1.5 }}
                             >
-                                  <CountUp className="text-6xl font-extrabold" end={112} enableScrollSpy />
-                                  <h2 className="text-2xl font-bold pt-10">Appreciations</h2>
+                                  <CountUp className="text-6xl font-extrabold text-white" end={112} enableScrollSpy />
+                                  <h2 className="text-2xl font-bold pt-10 text-white">Appreciations</h2>
                               </motion.div>
 
                               <motion.div
@@ -305,8 +305,8 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 2 }}
                             >
-                                  <CountUp className="text-6xl font-extrabold" end={34} enableScrollSpy />
-                                  <h2 className="text-2xl font-bold pt-10">Followers</h2>
+                                  <CountUp className="text-6xl font-extrabold text-white" end={34} enableScrollSpy />
+                                  <h2 className="text-2xl font-bold pt-10 text-white">Followers</h2>
                               </motion.div>
     </div>
     </motion.div>

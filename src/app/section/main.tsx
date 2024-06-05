@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className="max-w-fit mb-4 shadow-md rounded-lg backdrop-blur-2xl bg-blue-500/30 border-0 p-4">
                 <div className="flex items-center">
-                <h1 className="max-w-2xl 2xl:text-base  mr-2 text-lg text-gray-300 font-extrabold tracking-tight leading-none">Always Active</h1>
+                <h1 className="max-w-2xl 2xl:text-base  mr-2 text-lg text-gray-300 font-extrabold md:font-bold tracking-tight leading-none">Always Active</h1>
                 <span className="relative flex h-3 w-3 ">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-lime-400"></span>
