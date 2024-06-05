@@ -74,7 +74,7 @@ export default function Home() {
     >
       
       <motion.div
-    className="w-full 2xl:m-28 md:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-20 min-[1920px]:mb-40 "
+    className="w-full 2xl:m-28 md:m-28 md:mt-0 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-20 min-[1920px]:mb-40 "
     >
       <div className="grid grid-cols-4 gap-4 w-full text-white">
                             <motion.div
