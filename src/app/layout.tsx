@@ -7,7 +7,7 @@ import Favicon from './images/JEnobgwhitev2.ico';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio Design",
+  title: "John Ermy",
   description: "John Ermy's Portfolio Design",
   icons: [{ rel: 'icon', url: Favicon.src }],
 };

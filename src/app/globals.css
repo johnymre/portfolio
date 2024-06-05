@@ -104,10 +104,12 @@ a
   --tw-rotate: -20deg
 }
 
-.current {
-  @apply text-sky-500 font-bold
+
+html {
+  --cursor-color: #0000
 }
 
-.active {
-  font-weight: bold;
+html.dark-mode {
+  --cursor-color: #fff
 }
+

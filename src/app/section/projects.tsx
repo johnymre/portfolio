@@ -28,7 +28,7 @@ export default function Home() {
       
 
     <motion.div
-    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0"
+    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40"
     initial={{ y:100, opacity: 0 }}
     whileInView={{ y:0, opacity: 1 }}
     viewport={{ once: true }}
@@ -241,7 +241,7 @@ export default function Home() {
             </Card>
           </div>
           <div className="lg:flex inline-flex items-center justify-center mt-4">
-                  <motion.a href="https://www.behance.net/gallery/194455311/Saudi-Mshati-Construction-Web-Design" target="_blank" className="inline-flex items-center justify-center mt-4 px-5 py-3 font-medium text-center text-gray-900 border-0 border-sky-500  hover:text-white  bg-transparent focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 text-xl underline"
+                  <motion.a href="https://www.behance.net/johnermy" target="_blank" className="inline-flex items-center justify-center mt-4 px-5 py-3 font-medium text-center text-gray-900 border-0 border-sky-500  hover:text-white  bg-transparent focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 text-xl underline"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -262,7 +262,7 @@ export default function Home() {
     background-animate dark:bg-gray-900"
     >
     <motion.div
-    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0"
+    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40"
     initial={{ y:100, opacity: 0 }}
     whileInView={{ y:0, opacity: 1 }}
     viewport={{ once: true }}
@@ -278,21 +278,21 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-4 w-full">
                             <motion.div
                             className="text-center"
-                            initial={{opacity : 0 }}
-                            whileInView={{ opacity : 1 }}
+                            initial={{opacity : 0, y : 100 }}
+                            whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1 }}
                             >
-                                  <CountUp className="text-6xl font-extrabold" end={6348} enableScrollSpy />
+                                  <CountUp className="text-6xl font-extrabold" end={6420} enableScrollSpy />
                                   <h2 className="text-2xl font-bold pt-10">Project Views</h2>
                               </motion.div>
 
                               <motion.div
                             className="text-center"
-                            initial={{opacity : 0 }}
-                            whileInView={{ opacity : 1 }}
+                            initial={{opacity : 0, y : 100 }}
+                            whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 1.5 }}
                             >
                                   <CountUp className="text-6xl font-extrabold" end={112} enableScrollSpy />
                                   <h2 className="text-2xl font-bold pt-10">Appreciations</h2>
@@ -300,10 +300,10 @@ export default function Home() {
 
                               <motion.div
                             className="text-center"
-                            initial={{opacity : 0 }}
-                            whileInView={{ opacity : 1 }}
+                            initial={{opacity : 0, y : 100 }}
+                            whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 2 }}
                             >
                                   <CountUp className="text-6xl font-extrabold" end={34} enableScrollSpy />
                                   <h2 className="text-2xl font-bold pt-10">Followers</h2>
