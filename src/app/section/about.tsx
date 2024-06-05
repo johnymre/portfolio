@@ -76,7 +76,7 @@ export default function Home() {
       <motion.div
     className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-20 min-[1920px]:mb-40 "
     >
-      <div className="grid grid-cols-4 gap-4 w-full ">
+      <div className="grid grid-cols-4 gap-4 w-full text-white">
                             <motion.div
                             className="text-center flex items-center justify-center"
                             initial={{opacity : 0, y : 100 }}
@@ -84,10 +84,10 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.2 }}
                             >
-                                  <h2 className="text-6xl font-extrabold pr-4">5+</h2>
+                                  <h2 className="text-6xl font-extrabold pr-4 text-white">5+</h2>
                                   <div className="text-left">
-                                  <h3 className="text-xl font-regular">Years of</h3>
-                                  <h3 className="text-xl font-regular">Experience</h3>
+                                  <h3 className="text-xl font-regular text-white">Years of</h3>
+                                  <h3 className="text-xl font-regular text-white">Experience</h3>
                                   </div>
                               </motion.div>
 
@@ -98,10 +98,10 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.4 }}
                             >
-                                  <h2 className="text-6xl font-extrabold pr-4">50+</h2>
+                                  <h2 className="text-6xl font-extrabold pr-4 text-white">50+</h2>
                                   <div className="text-left">
-                                  <h3 className="text-l font-regular">Website</h3>
-                                  <h3 className="text-l font-regular">Projects</h3>
+                                  <h3 className="text-l font-regular text-white">Website</h3>
+                                  <h3 className="text-l font-regular text-white">Projects</h3>
                                   </div>
                               </motion.div>
 
@@ -112,10 +112,10 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6 }}
                             >
-                                  <h2 className="text-6xl font-extrabold pr-4">100+</h2>
+                                  <h2 className="text-6xl font-extrabold pr-4 text-white">100+</h2>
                                   <div className="text-left">
-                                  <h3 className="text-l font-regular">Graphic Design</h3>
-                                  <h3 className="text-l font-regular">Projects</h3>
+                                  <h3 className="text-l font-regular text-white">Graphic Design</h3>
+                                  <h3 className="text-l font-regular text-white">Projects</h3>
                                   </div>
                               </motion.div>
 
@@ -126,10 +126,10 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
                             >
-                                  <h2 className="text-6xl font-extrabold pr-4">60+</h2>
+                                  <h2 className="text-6xl font-extrabold pr-4 text-white">60+</h2>
                                   <div className="text-left">
-                                  <h3 className="text-l font-regular">Happy</h3>
-                                  <h3 className="text-l font-regular">Clients</h3>
+                                  <h3 className="text-l font-regular text-white">Happy</h3>
+                                  <h3 className="text-l font-regular text-white">Clients</h3>
                                   </div>
                               </motion.div>
     </div>
