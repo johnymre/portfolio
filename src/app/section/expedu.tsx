@@ -62,7 +62,7 @@ export default function Home() {
                         <h5 className="text-2xl font-extrabold text-white">
                             Freelance Wordpress Web Developer
                         </h5>
-                        <p className="max-w-2xl 2xl:text-base">Managing and Developing Website Design for Australian Clients (Rhinomedia). Building websites with the use of Wordpress CMS and Elementor Theme. It includes graphic designs and SEO.</p>
+                        <p className="max-w-2xl 2xl:text-base text-white">Managing and Developing Website Design for Australian Clients (Rhinomedia). Building websites with the use of Wordpress CMS and Elementor Theme. It includes graphic designs and SEO.</p>
                     </Card>
                     <div className="h-5"></div>
                     <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-52">
@@ -72,7 +72,7 @@ export default function Home() {
                         <h5 className="text-2xl font-extrabold text-white">
                             Freelance Wordpress Web Developer
                         </h5>
-                        <p className="max-w-2xl 2xl:text-base ">Managing and Developing Website Design for Australian Clients (Rhinomedia). Building websites with the use of Wordpress CMS and Impreza Theme. It includes graphic designs and SEO.</p>
+                        <p className="max-w-2xl 2xl:text-base text-white">Managing and Developing Website Design for Australian Clients (Rhinomedia). Building websites with the use of Wordpress CMS and Impreza Theme. It includes graphic designs and SEO.</p>
                     </Card>
                     <div className="h-5"></div>
                     <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-52">
@@ -82,7 +82,7 @@ export default function Home() {
                         <h5 className="text-2xl font-extrabold text-white">
                             Senior Wordpress Web Developer
                         </h5>
-                        <p className="max-w-2xl 2xl:text-base">Managing and Developing Website Design for Australian Clients (Elazar Creative Publishing Inc.). Building websites with the use of Wordpress CMS and Impreza Theme. It includes graphic designs and SEO.</p>
+                        <p className="max-w-2xl 2xl:text-base text-white">Managing and Developing Website Design for Australian Clients (Elazar Creative Publishing Inc.). Building websites with the use of Wordpress CMS and Impreza Theme. It includes graphic designs and SEO.</p>
                     </Card>
                     <div className="h-5"></div>
                     <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-52">
@@ -92,7 +92,7 @@ export default function Home() {
                         <h5 className="text-2xl font-extrabold text-white">
                             Wordpress Web Developer
                         </h5>
-                        <p className="max-w-2xl 2xl:text-base">Managing and Developing Website Design for Australian Clients (Elazar Creative Publishing Inc.). Building websites with the use of Wordpress CMS and Impreza Theme. It includes graphic designs and SEO.</p>
+                        <p className="max-w-2xl 2xl:text-base text-white">Managing and Developing Website Design for Australian Clients (Elazar Creative Publishing Inc.). Building websites with the use of Wordpress CMS and Impreza Theme. It includes graphic designs and SEO.</p>
                     </Card>
                 </div>
 
