@@ -114,7 +114,7 @@ export default function Home() {
           {/*  <-------- Spacer ---------- > */}
 
           <div className="grid grid-cols-2 gap-4 flex items-center justify-center ">
-            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-[34rem]">
+            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-[34rem] overflow-hidden">
                   <h5 className="text-2xl underline font-bold tracking-tight text-white dark:text-white">
                     Windows App Development
                   </h5>
@@ -123,7 +123,7 @@ export default function Home() {
                     Management Information and Billing System
                   </h5>
                   <p className="font-normal text-white dark:text-gray-400 bg-gradient-to-b from-white bg-clip-text text-transparent">
-                    Built with Wordpress Elementor Theme and Woocommerce. Web development and Web design with contact forms, payment method and booking forms.
+                    Built with Microsoft Visual Studio C# and SQL Server for lan database. Features of printing billing, reports, penalty calculations, member's information and ETC.
                   </p>
                   <div className="lg:flex inline-flex items-center mt-4">
                   <motion.a href="https://www.behance.net/gallery/194455311/Saudi-Mshati-Construction-Web-Design" target="_blank" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-lg hover:text-white  bg-gradient-to-r from-blue-700 to-blue-600 focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
@@ -145,20 +145,29 @@ export default function Home() {
                       </motion.a> 
                   </div> 
                   <div className="h-60">
-
+                        <motion.div
+                        className="relative w-full h-full"
+                        initial={{y : 100 }}
+                        whileInView={{ y : 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1 }}
+                        >
+                              <Image className="z-1 absolute min-[1920px]:right-0 min-[1920px]:bottom-[-8rem] 2xl:right-0 left-0 md:bottom-[-5rem]"  src={require('../images/tbwscbilling.webp')} width={700} height={700} alt="John Ermy" />
+                        </motion.div>
                   </div>
             </Card>
+            
 
-            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-[34rem]">
+            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-[34rem] overflow-hidden">
                   <h5 className="text-2xl underline font-bold tracking-tight text-white dark:text-white">
                     Branding
                   </h5>
                   <div className="h-3"></div>
                   <p className="font-normal text-white dark:text-gray-400 bg-gradient-to-b from-white bg-clip-text text-transparent">
-                    Mockups, graphic design, booklet, magazine, lanyard, calling card and ETC.
+                    Mockups, graphic design, booklet, magazine, banner, lanyard, calling card, flyers, t-shirt design, identification mockup and ETC. Made with Adobe Photoshop and Adobe Illustrator. 
                   </p>
-                  <div className="lg:flex inline-flex items-center mt-4">
-                  <motion.a href="https://www.behance.net/gallery/194455311/Saudi-Mshati-Construction-Web-Design" target="_blank" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-lg hover:text-white  bg-gradient-to-r from-blue-700 to-blue-600 focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                  <div className="lg:flex inline-flex mt-4">
+                  <motion.a href="https://www.behance.net/gallery/194455311/Saudi-Mshati-Construction-Web-Design" target="_blank" className="inline-flex px-5 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-lg hover:text-white  bg-gradient-to-r from-blue-700 to-blue-600 focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -177,7 +186,15 @@ export default function Home() {
                       </motion.a> 
                   </div> 
                   <div className="h-60">
-
+                  <motion.div
+                        className="relative w-full h-full"
+                        initial={{y : 100 }}
+                        whileInView={{ y : 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1 }}
+                        >
+                             <Image className="z-1 min-[1920px]:right-0 min-[1920px]:bottom-[-8rem] 2xl:right-0 left-0 md:bottom-[-5rem]"  src={require('../images/branding.webp')} width={700} height={700} alt="John Ermy" />
+                  </motion.div>
                   </div>
             </Card>
           </div>
@@ -187,11 +204,14 @@ export default function Home() {
           {/*  <-------- Spacer ---------- > */}
 
           <div className="grid grid-cols-2 gap-4 flex items-center justify-center">
-            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0">
+            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 overflow-hidden">
                   <h5 className="text-2xl underline font-bold tracking-tight text-white dark:text-white">
                     Social Media Post
                   </h5>
                   <div className="h-3"></div>
+                  <p className="font-normal text-white dark:text-gray-400 bg-gradient-to-b from-white bg-clip-text text-transparent">
+                    Facebook, Instagram, Youtube, Google email, Linked-in and ETC. Made with Adobe Photoshop and Adobe Illustrator. 
+                  </p>
                   <div className="lg:flex inline-flex items-center mt-4">
                   <motion.a href="https://www.behance.net/gallery/194455311/Saudi-Mshati-Construction-Web-Design" target="_blank" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-lg hover:text-white  bg-gradient-to-r from-blue-700 to-blue-600 focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
                         whileHover={{ scale: 1.2 }}
@@ -211,13 +231,27 @@ export default function Home() {
                           
                       </motion.a> 
                   </div> 
+                  <div className="h-60">
+                  <motion.div
+                        className="relative w-full h-full"
+                        initial={{y : 100 }}
+                        whileInView={{ y : 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1 }}
+                        >
+                             <Image className="z-1 min-[1920px]:right-0 min-[1920px]:bottom-[-8rem] 2xl:right-0 left-0 md:bottom-[-5rem]"  src={require('../images/socialmediapost.webp')} width={700} height={700} alt="John Ermy" />
+                  </motion.div>
+                  </div>
             </Card>
 
-            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0">
+            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 overflow-hidden">
                   <h5 className="text-2xl underline font-bold tracking-tight text-white dark:text-white">
                     Others
                   </h5>
                   <div className="h-3"></div>
+                  <p className="font-normal text-white dark:text-gray-400 bg-gradient-to-b from-white bg-clip-text text-transparent">
+                    Video Editing, Reels, Same day edit, wedding monogram, photography, tarpaulin design and ETC. 
+                  </p>
                   <div className="lg:flex inline-flex items-center mt-4">
                   <motion.a href="https://www.behance.net/gallery/194455311/Saudi-Mshati-Construction-Web-Design" target="_blank" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-lg hover:text-white  bg-gradient-to-r from-blue-700 to-blue-600 focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
                         whileHover={{ scale: 1.2 }}
@@ -236,7 +270,22 @@ export default function Home() {
 
                           
                       </motion.a> 
+                      
                   </div> 
+
+                  <div className="h-60">
+                  <motion.div
+                        className="relative w-full h-full"
+                        initial={{y : 100 }}
+                        whileInView={{ y : 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1 }}
+                        >
+                             <video width="750" height="500" loop muted autoPlay>
+                                  <source src='/tbwsc.mp4' type="video/mp4"/>
+                            </video>
+                  </motion.div>
+                  </div>
             </Card>
           </div>
           <div className="lg:flex inline-flex items-center justify-center mt-4">
@@ -249,6 +298,7 @@ export default function Home() {
                           See All Projects
                           
                       </motion.a> 
+                      
             </div> 
     </motion.div>
 
@@ -274,7 +324,7 @@ export default function Home() {
         </div>
               <h2>Behance Stats</h2>
       </div>
-      <div className="grid grid-cols-3 gap-4 w-full">
+      <div className="grid grid-cols-3 gap-4 w-full md:mb-3.5">
                             <motion.div
                             className="text-center"
                             initial={{opacity : 0, y : 100 }}
