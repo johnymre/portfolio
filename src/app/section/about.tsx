@@ -21,7 +21,8 @@ export default function Home() {
     from-blue-800
     via-blue-700
     to-blue-600
-    background-animate dark:bg-gray-900"
+    background-animate dark:bg-gray-900 pt-10"
+    id="about"
     >
       
 

@@ -5,6 +5,7 @@ import Main from "./section/main"
 import Projects from "./section/projects"
 import About from "./section/about"
 import ExpEdu from "./section/expedu"
+import Skills from "./section/skills"
 import { motion } from "framer-motion";
 import "./globals.css";
 import AnimatedCursor from "react-animated-cursor"
@@ -17,6 +18,7 @@ export default function Home() {
     <Projects />
     <About />
     <ExpEdu />
+    <Skills />
     <AnimatedCursor
   innerSize={5}
   outerSize={35}

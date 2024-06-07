@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
-import Favicon from './images/JEnobgwhitev2.ico';
+import Favicon from './images/favicon.ico';
 
 const inter = Inter({ subsets: ["latin"] });
 

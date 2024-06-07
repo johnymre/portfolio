@@ -22,10 +22,9 @@ export default function Home() {
     from-blue-800
     via-blue-700
     to-blue-600
-    background-animate dark:bg-gray-900"
+    background-animate dark:bg-gray-900 pt-10"
     id="projects"
     >
-      
 
     <motion.div
     className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40 md:m-40 md:mt-0"
@@ -262,7 +261,7 @@ export default function Home() {
     background-animate dark:bg-gray-900"
     >
     <motion.div
-    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40 md:m-28 md:mt-0"
+    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40 md:m-28 md:mb-0 md:mt-0"
     initial={{ y:100, opacity: 0 }}
     whileInView={{ y:0, opacity: 1 }}
     viewport={{ once: true }}
@@ -305,7 +304,7 @@ export default function Home() {
                             viewport={{ once: true }}
                             transition={{ duration: 2 }}
                             >
-                                  <CountUp className="text-6xl font-extrabold text-white" end={34} enableScrollSpy />
+                                  <CountUp className="text-6xl font-extrabold text-white" end={35} enableScrollSpy />
                                   <h2 className="text-2xl font-bold pt-10 text-white">Followers</h2>
                               </motion.div>
     </div>
