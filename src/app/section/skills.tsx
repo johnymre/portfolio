@@ -50,7 +50,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 1.5 }}
+                            transition={{ duration: 1.3 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -64,7 +64,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 2 }}
+                            transition={{ duration: 1.5 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -78,7 +78,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 2 }}
+                            transition={{ duration: 1.8 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -92,7 +92,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 2.3 }}
+                            transition={{ duration: 2 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -106,7 +106,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 2.5 }}
+                            transition={{ duration: 2.3 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -123,7 +123,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 2.8 }}
+                            transition={{ duration: 2.5 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -137,7 +137,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 3 }}
+                            transition={{ duration: 2.8 }}
                             >
                                 
                                  <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
@@ -154,7 +154,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 3.3 }}
+                            transition={{ duration: 3 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -169,7 +169,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 3.5 }}
+                            transition={{ duration: 3.3 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -183,7 +183,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 3.8 }}
+                            transition={{ duration: 3.5 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
@@ -197,7 +197,7 @@ export default function Home() {
                             initial={{opacity : 0, y : 100 }}
                             whileInView={{ opacity : 1 , y : 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 4 }}
+                            transition={{ duration: 3.8 }}
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
