@@ -34,6 +34,9 @@ const config: Config = {
       height: {
         '128': '34rem',
         '152': '47rem',
+      },
+      width: {
+        '128': '29.3rem',
       }
     },
   },

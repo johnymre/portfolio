@@ -288,7 +288,7 @@ export default function Home() {
                   </div>
             </Card>
           </div>
-          <div className="lg:flex inline-flex items-center justify-center md:mt-4 m-4 w-full">
+          <div className="lg:flex inline-flex items-center justify-center md:mt-4 md:m-4 mr-0 ml-0 mt-10 mb-10 w-full">
                   <motion.a href="https://www.behance.net/johnermy" target="_blank" className="inline-flex items-center justify-center mt-4 px-5 py-3 font-medium text-center text-gray-900 border-0 border-sky-500  hover:text-white  bg-transparent focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 text-xl underline"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}

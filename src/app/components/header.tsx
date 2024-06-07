@@ -28,6 +28,7 @@ export default function Header() {
 
   return (
     <motion.div
+    className="w-10/12"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       
