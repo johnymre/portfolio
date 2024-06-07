@@ -16,7 +16,7 @@ export default function Home() {
     id="skills"
     >
     <motion.div
-    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-20 min-[1920px]:mb-40 md:m-28 md:mb-20 md:mt-20"
+    className="w-full 2xl:m-28 2xl:mt-0 mb-20 min-[1920px]:m-60 min-[1920px]:mt-20 min-[1920px]:mb-40 md:m-28 md:mb-20 md:mt-20"
     initial={{ y:100, opacity: 0 }}
     whileInView={{ y:0, opacity: 1 }}
     viewport={{ once: true }}
@@ -26,7 +26,7 @@ export default function Home() {
       <div className="text-center text-white text-4xl dark:text-gray-400 font-extrabold pb-12 flex items-center justify-center">
               <h2>Skills</h2>
       </div>
-      <div className="grid grid-cols-6 gap-4 w-full  mb-10">
+      <div className="grid md:grid-cols-6 grid-cols-2 gap-4 w-full  mb-10">
                             <motion.div
                             className="text-center"
                             initial={{opacity : 0, y : 100 }}
@@ -37,7 +37,7 @@ export default function Home() {
                                 
                                  <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                  <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
-                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90" height="90" viewBox="0 0 48 48">
                                                 <path fill="#fff" d="M24 4.050000000000001A19.95 19.95 0 1 0 24 43.95A19.95 19.95 0 1 0 24 4.050000000000001Z"></path><path fill="#01579b" d="M8.001,24c0,6.336,3.68,11.806,9.018,14.4L9.385,17.488C8.498,19.479,8.001,21.676,8.001,24z M34.804,23.194c0-1.977-1.063-3.35-1.67-4.412c-0.813-1.329-1.576-2.437-1.576-3.752c0-1.465,1.471-2.84,3.041-2.84 c0.071,0,0.135,0.006,0.206,0.008C31.961,9.584,28.168,8,24.001,8c-5.389,0-10.153,2.666-13.052,6.749 c0.228,0.074,0.307,0.039,0.611,0.039c1.669,0,4.264-0.2,4.264-0.2c0.86-0.057,0.965,1.212,0.099,1.316c0,0-0.864,0.105-1.828,0.152 l5.931,17.778l3.5-10.501l-2.603-7.248c-0.861-0.046-1.679-0.152-1.679-0.152c-0.862-0.056-0.762-1.375,0.098-1.316 c0,0,2.648,0.2,4.217,0.2c1.675,0,4.264-0.2,4.264-0.2c0.861-0.057,0.965,1.212,0.104,1.316c0,0-0.87,0.105-1.832,0.152l5.891,17.61 l1.599-5.326C34.399,26.289,34.804,24.569,34.804,23.194z M24.281,25.396l-4.8,13.952c1.436,0.426,2.95,0.652,4.52,0.652 c1.861,0,3.649-0.324,5.316-0.907c-0.04-0.071-0.085-0.143-0.118-0.22L24.281,25.396z M38.043,16.318 c0.071,0.51,0.108,1.059,0.108,1.645c0,1.628-0.306,3.451-1.219,5.737l-4.885,14.135C36.805,35.063,40,29.902,40,24 C40,21.219,39.289,18.604,38.043,16.318z"></path><path fill="#01579b" d="M4,24c0,11.024,8.97,20,19.999,20C35.03,44,44,35.024,44,24S35.03,4,24,4S4,12.976,4,24z M5.995,24 c0-9.924,8.074-17.999,18.004-17.999S42.005,14.076,42.005,24S33.929,42.001,24,42.001C14.072,42.001,5.995,33.924,5.995,24z"></path>
                                             </svg>
                                     </div>
@@ -55,7 +55,7 @@ export default function Home() {
                             >
                                   <Card className="w-full h-36 backdrop-blur-2xl bg-blue-500/30 border-0 flex items-center justify-center group">
                                     <div className="grayscale group-hover:grayscale-0 transition-all ease-in-out delay-150">
-                                    <svg height="70"  version="1.1" viewBox="0 0 512 512" width="70" xmlns="http://www.w3.org/2000/svg" ><g id="_x31_09-elementor"><g><path d="M462.999,26.001H49c-12.731,0-22.998,10.268-22.998,23v413.998c0,12.732,10.267,23,22.998,23    h413.999c12.732,0,22.999-10.268,22.999-23V49.001C485.998,36.269,475.731,26.001,462.999,26.001" fill="#D63362"/><rect height="204.329" fill="#FFFFFF" width="40.865" x="153.836" y="153.836"/><rect height="40.866" fill="#FFFFFF" width="122.7" x="235.566" y="317.299"/><rect height="40.865" fill="#FFFFFF" width="122.7" x="235.566" y="235.566"/><rect height="40.865" fill="#FFFFFF" width="122.7" x="235.566" y="153.733"/></g></g><g id="Layer_1"/></svg> </div>
+                                    <svg height="80"  version="1.1" viewBox="0 0 512 512" width="80" xmlns="http://www.w3.org/2000/svg" ><g id="_x31_09-elementor"><g><path d="M462.999,26.001H49c-12.731,0-22.998,10.268-22.998,23v413.998c0,12.732,10.267,23,22.998,23    h413.999c12.732,0,22.999-10.268,22.999-23V49.001C485.998,36.269,475.731,26.001,462.999,26.001" fill="#D63362"/><rect height="204.329" fill="#FFFFFF" width="40.865" x="153.836" y="153.836"/><rect height="40.866" fill="#FFFFFF" width="122.7" x="235.566" y="317.299"/><rect height="40.865" fill="#FFFFFF" width="122.7" x="235.566" y="235.566"/><rect height="40.865" fill="#FFFFFF" width="122.7" x="235.566" y="153.733"/></g></g><g id="Layer_1"/></svg> </div>
                                  </Card>
                                   <h2 className="text-lg font-regular pt-8 text-white">Elementor Theme</h2>
                               </motion.div>
@@ -118,7 +118,7 @@ export default function Home() {
                               </motion.div>
                               
     </div>
-    <div className="grid grid-cols-6 gap-4 w-full">
+    <div className="grid md:grid-cols-6 grid-cols-2 gap-4 w-full">
                             <motion.div
                             className="text-center"
                             initial={{opacity : 0, y : 100 }}

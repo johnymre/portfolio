@@ -91,7 +91,7 @@ export default function Home() {
                   viewport={{ once: true }}
                   transition={{ duration: 1 }}
                   >
-                        <Image className="z-1 md:rotate-[-20deg] absolute min-[1920px]:right-72 top-[-5rem] 2xl:right-72 right-20  2xl:top-[-5rem] 2xl:w-72 lg:w-60  sm:w-40"  src={web1} width={300} height={300} alt="John Ermy" />
+                        <Image className="z-1 md:rotate-[-20deg] absolute min-[1920px]:right-72 top-[-5rem] 2xl:right-72 md:right-15  2xl:top-[-5rem] 2xl:w-72 lg:w-60  sm:w-40"  src={web1} width={300} height={300} alt="John Ermy" />
                   </motion.div>
                 </div>
                 <div className="md:w-full rounded-lg bg-transparent border-0 p-10">
@@ -102,7 +102,7 @@ export default function Home() {
                   viewport={{ once: true }}
                   transition={{ duration: 1 }}
                   >
-                        <Image className="z-0  md:rotate-[-20deg] absolute  right-[-7rem] top-[-7rem] min-[1920px]:right-0 2xl:top-[-20rem] 2xl:right-0 2xl:w-72 lg:w-60 sm:w-40"  src={web12} width={300} height={300} alt="John Ermy" />
+                        <Image className="z-0  md:rotate-[-20deg] absolute  md:right-2 md:top-[-20rem] min-[1920px]:right-0 2xl:right-0 2xl:w-72 lg:w-60 sm:w-40"  src={web12} width={300} height={300} alt="John Ermy" />
                   </motion.div>
                 </div>
                 </div>
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="h-5"></div>
           {/*  <-------- Spacer ---------- > */}
 
-          <div className="grid grid-cols-2 gap-4 flex items-center justify-center ">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex items-center justify-center ">
             <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-[34rem] overflow-hidden">
                   <h5 className="text-2xl underline font-bold tracking-tight text-white dark:text-white">
                     Windows App Development
@@ -158,7 +158,7 @@ export default function Home() {
             </Card>
             
 
-            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-[34rem] overflow-hidden">
+            <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 md:h-[34rem] h-fit overflow-hidden">
                   <h5 className="text-2xl underline font-bold tracking-tight text-white dark:text-white">
                     Branding
                   </h5>
@@ -185,7 +185,7 @@ export default function Home() {
                           
                       </motion.a> 
                   </div> 
-                  <div className="h-60">
+                  <div className="h-32 md:h-60">
                   <motion.div
                         className="relative w-full h-full"
                         initial={{y : 100 }}
@@ -193,7 +193,7 @@ export default function Home() {
                         viewport={{ once: true }}
                         transition={{ duration: 1 }}
                         >
-                             <Image className="z-1 min-[1920px]:right-0 min-[1920px]:bottom-[-8rem] 2xl:right-0 left-0 md:bottom-[-5rem]"  src={require('../images/branding.webp')} width={700} height={700} alt="John Ermy" />
+                             <Image className="z-1 min-[1920px]:right-0 min-[1920px]:bottom-[-8rem] 2xl:right-0 left-0 md:bottom-[-5rem]"  src={require('../images/branding.webp')} width={800} height={800} alt="John Ermy" />
                   </motion.div>
                   </div>
             </Card>
@@ -203,7 +203,7 @@ export default function Home() {
           <div className="h-5"></div>
           {/*  <-------- Spacer ---------- > */}
 
-          <div className="grid grid-cols-2 gap-4 flex items-center justify-center">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4 flex items-center justify-center">
             <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 overflow-hidden">
                   <h5 className="text-2xl underline font-bold tracking-tight text-white dark:text-white">
                     Social Media Post
@@ -273,7 +273,7 @@ export default function Home() {
                       
                   </div> 
 
-                  <div className="h-60">
+                  <div className="h-32 md:h-60">
                   <motion.div
                         className="relative w-full h-full"
                         initial={{y : 100 }}
@@ -288,7 +288,7 @@ export default function Home() {
                   </div>
             </Card>
           </div>
-          <div className="lg:flex inline-flex items-center justify-center mt-4">
+          <div className="lg:flex inline-flex items-center justify-center md:mt-4 m-4 w-full">
                   <motion.a href="https://www.behance.net/johnermy" target="_blank" className="inline-flex items-center justify-center mt-4 px-5 py-3 font-medium text-center text-gray-900 border-0 border-sky-500  hover:text-white  bg-transparent focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 text-xl underline"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
@@ -311,7 +311,7 @@ export default function Home() {
     background-animate dark:bg-gray-900"
     >
     <motion.div
-    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40 md:m-28 md:mb-0 md:mt-0"
+    className="w-full 2xl:m-28 2xl:mt-0 min-[1920px]:m-60 min-[1920px]:mt-0 min-[1920px]:mb-40 md:m-28 md:mb-0 md:mt-0 mt-10 mb-10"
     initial={{ y:100, opacity: 0 }}
     whileInView={{ y:0, opacity: 1 }}
     viewport={{ once: true }}
@@ -324,7 +324,7 @@ export default function Home() {
         </div>
               <h2>Behance Stats</h2>
       </div>
-      <div className="grid grid-cols-3 gap-4 w-full md:mb-3.5">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-4 w-full md:mb-3.5">
                             <motion.div
                             className="text-center"
                             initial={{opacity : 0, y : 100 }}
