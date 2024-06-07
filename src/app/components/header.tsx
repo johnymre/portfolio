@@ -53,7 +53,7 @@ export default function Header() {
         </Navbar.Link>
         <Navbar.Link className="text-white md:hover:text-sky-500" href="#projects">Projects</Navbar.Link>
         <Navbar.Link className="text-white md:hover:text-sky-500" href="#about">About</Navbar.Link>
-        <Navbar.Link className="text-white md:hover:text-sky-500" href="#">Skills</Navbar.Link>
+        <Navbar.Link className="text-white md:hover:text-sky-500" href="#skills">Skills</Navbar.Link>
         <Navbar.Link className="text-white md:hover:text-sky-500" href="mailto:johnermy@gmail.com">Contact</Navbar.Link>
       </Navbar.Collapse>
      

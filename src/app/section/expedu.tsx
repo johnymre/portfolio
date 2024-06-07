@@ -52,7 +52,7 @@ export default function Home() {
                         <h5 className="text-2xl font-extrabold text-white">
                             Freelance C# Developer
                         </h5>
-                        <p className="max-w-2xl 2xl:text-base">Management Information and Billing System for a water service cooperative in Tanauan, Batangas with over 1000+ members.</p>
+                        <p className="max-w-2xl 2xl:text-base text-white">Management Information and Billing System for a water service cooperative in Tanauan, Batangas with over 1000+ members.</p>
                     </Card>
                     <div className="h-5"></div>
                     <Card className="w-full backdrop-blur-2xl bg-blue-500/30 border-0 h-52">
