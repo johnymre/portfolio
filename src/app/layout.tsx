@@ -20,7 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta property="og:image" content="%PUBLIC_URL%/images/featuredimg.png" />
       </head>
       <body className={inter.className}>
       <Header />
