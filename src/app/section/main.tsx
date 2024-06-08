@@ -56,7 +56,7 @@ export default function Home() {
 
                 </span>
             </p>
-            <motion.a href="https://drive.google.com/file/d/11BNH122Eg6sJT624_X1hgxKylmOB-hM3/view?usp=sharing" target="_blank" className="inline-flex w-full md:w-auto  items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-lg hover:text-white  bg-gradient-to-r from-blue-700 to-blue-600 focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            <motion.a href="https://drive.google.com/file/d/11BNH122Eg6sJT624_X1hgxKylmOB-hM3/view?usp=sharing" target="_blank" className="inline-flex w-full md:w-auto  items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-lg hover:text-white  bg-gradient-to-r from-blue-700 to-blue-600  text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -67,7 +67,7 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path fill="#fff" d="M12 21l-8-9h6v-12h4v12h6l-8 9zm9-1v2h-18v-2h-2v4h22v-4h-2z"/></svg>
                 </span>
             </motion.a> 
-            <motion.a href="https://www.facebook.com/JOHNERMY/" target="_blank" className="inline-flex items-center justify-center ml-4 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            <motion.a href="https://www.facebook.com/JOHNERMY/" target="_blank" className="inline-flex items-center justify-center ml-4 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent  text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -75,7 +75,7 @@ export default function Home() {
              
              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="#fff" d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
             </motion.a> 
-            <motion.a href="https://www.instagram.com/johnermy.design" target="_blank" className="inline-flex items-center justify-center ml-2 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            <motion.a href="https://www.instagram.com/johnermy.design" target="_blank" className="inline-flex items-center justify-center ml-2 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent  text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -84,7 +84,7 @@ export default function Home() {
              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="#fff" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
 
             </motion.a>
-            <motion.a href="https://www.linkedin.com/in/johnermy/" target="_blank" className="inline-flex items-center justify-center ml-2 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            <motion.a href="https://www.linkedin.com/in/johnermy/" target="_blank" className="inline-flex items-center justify-center ml-2 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent  text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
