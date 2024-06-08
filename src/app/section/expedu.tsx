@@ -121,7 +121,7 @@ export default function Home() {
                             2020 - 2021
                         </h2>
                         <h5 className="text-2xl font-extrabold text-white">
-                            Keyword Research Exam (Certificate)
+                            Keyword Research Exam (SEO Certificate)
                         </h5>
                         <h3 className="text-xl text-white">Semrush Certificate</h3>
                         <h3 className="text-l text-white">semrush.com</h3>
