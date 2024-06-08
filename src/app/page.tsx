@@ -21,6 +21,7 @@ export default function Home() {
     <ExpEdu />
     <Skills />
     <Contact />
+    <div className="absolute md:block hidden">
     <AnimatedCursor
   innerSize={5}
   outerSize={35}
@@ -34,7 +35,7 @@ export default function Home() {
     backgroundColor: '#fff'
   }}
 />
-
+</div>
       
 </>
   );

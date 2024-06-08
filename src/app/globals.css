@@ -105,11 +105,3 @@ a
 }
 
 
-html {
-  --cursor-color: #0000
-}
-
-html.dark-mode {
-  --cursor-color: #fff
-}
-

@@ -67,7 +67,7 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path fill="#fff" d="M12 21l-8-9h6v-12h4v12h6l-8 9zm9-1v2h-18v-2h-2v4h22v-4h-2z"/></svg>
                 </span>
             </motion.a> 
-            <motion.a href="https://www.facebook.com/JOHNERMY/" target="_blank" className="inline-flex items-center justify-center ml-4 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent  text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            <motion.a href="https://www.facebook.com/JOHNERMY/" target="_blank" className="inline-flex items-center justify-center md:ml-4 mt-4 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent  text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -91,6 +91,16 @@ export default function Home() {
             >
              
              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="#fff" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+
+            </motion.a>
+
+            <motion.a href="https://github.com/" target="_blank" className="inline-flex items-center justify-center ml-2 px-3 py-3 text-base font-medium text-center text-gray-900 border-dashed border-2 border-sky-500 rounded-full hover:text-white  bg-transparent  text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+             
+             <svg enable-background="new 0 0 32 32" height="18" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="18" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z" fill="#fff" fill-rule="evenodd"/><g/><g/><g/><g/><g/><g/></svg>
 
             </motion.a>
         </div>
