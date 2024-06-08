@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta property="og:image" content="johnermy.vercel.app/featuredimg.png" />
+      <meta property="og:image" content="/featuredimg.png" />
       </head>
       <body className={inter.className}>
       <Header />
